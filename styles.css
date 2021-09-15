@@ -1,0 +1,42 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
+    height:90vh;
+    text-align: center;
+    margin:auto;
+}
+.heading{
+    margin:5px auto 10px auto;
+    border:none;
+}
+#map {
+   
+    
+    width:1024px;
+    height:768px;
+    margin:auto;
+    
+    
+
+}
+header, footer{
+    grid-column: 1 / 4;
+    align-content: center;
+    width: 50%;
+    margin:auto;
+}
+header, aside, article, footer{
+    border-style: solid;
+    font-size: 2em;
+    color:azure;
+    margin:auto;
+}
+
+body{
+    background-color:blueviolet;
+    padding-top:5em;
+    margin:auto;
+    width: 50%;
+}
